@@ -1,7 +1,15 @@
 package com.eazybytes.eazyschool.model;
 
-public class Holiday {
+import lombok.Data;
 
+
+/*@Data annotation is a lombok library annotation which generates the getter,setters,equals(),hashcode(),
+,toString() methods and constructors at compile time.
+This makes our code short and clean
+ */
+
+@Data
+public class Holiday {
         private final String day;
         private  final String reason;
         private final  Type type;
@@ -9,22 +17,4 @@ public class Holiday {
         public enum Type{
             FESTIVAL,FEDERAL
         }
-
-    public Holiday(String day, String reason, Type type) {
-        this.day = day;
-        this.reason = reason;
-        this.type = type;
-    }
-
-    public String getDay() {
-        return day;
-    }
-
-    public String getReason() {
-        return reason;
-    }
-
-    public Type getType() {
-        return type;
-    }
 }
