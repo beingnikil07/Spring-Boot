@@ -28,6 +28,8 @@ public class ProjectSecurityConfig {
                 .requestMatchers("/login").permitAll()
                 .requestMatchers("/logout").permitAll()
                 .requestMatchers("/public/**").permitAll()
+                .requestMatchers("/displayProfile").authenticated()
+                .requestMatchers("/updateProfile").authenticated()
 
                 .and().formLogin().loginPage("/login")
                 .defaultSuccessUrl("/dashboard").failureUrl("/login?error=true").permitAll()
