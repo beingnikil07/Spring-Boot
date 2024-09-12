@@ -1,6 +1,5 @@
 package com.eazybytes.eazyschool.controller;
 
-
 import com.eazybytes.eazyschool.model.Courses;
 import com.eazybytes.eazyschool.model.EazyClass;
 import com.eazybytes.eazyschool.model.Person;
