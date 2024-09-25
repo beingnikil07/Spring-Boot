@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping(path = "/api/contact")
+@CrossOrigin("*")  //allow for any domain
 public class ContactRestController {
 
     @Autowired
