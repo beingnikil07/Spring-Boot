@@ -17,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Slf4j
-@Controller
+@Controller("profileControllerBean")  //giving a custom name of the bean ,becz internally my spring data rest is trying to create a bean ProfileController,Phir name same ho lete ambigous error aati isliye alter name diya
 public class ProfileController {
 
     @Autowired
