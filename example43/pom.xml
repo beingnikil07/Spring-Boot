@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.eazybytes</groupId>
 	<artifactId>example43</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>example43</name>
 	<description>Eazy School Web Application</description>
