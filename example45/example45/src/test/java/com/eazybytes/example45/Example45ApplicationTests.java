@@ -1,4 +1,4 @@
-package com.eazybytes.eazyschool;
+package com.eazybytes.example45;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
